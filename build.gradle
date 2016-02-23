@@ -1,0 +1,16 @@
+group 'GifPlayer'
+version '0.8'
+
+apply plugin: 'java'
+
+sourceCompatibility = JavaVersion.VERSION_1_7
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'main.GifPlayerMain'
+    }
+}
